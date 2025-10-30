@@ -10,12 +10,18 @@ In this task, we performed enumeration to identify potential vulnerabilities on 
 - So basically we need to scan for open ports using the NMAP scan as shown in the screenshot. Though most times adviceable to run the to scan aggressively using nmap -A and IP address.
 - After that we scanned for the service version using nmap -sV and IP address
 
+
+
 ![vulnersity](vunlversity.png)
 This is the vunlversity lab where you get to first turn on your machine and connect to your OPENVPN. 
+
 
 ![Nmap answer](nmapanswer.png)
 
 These are the answers I got after scanning for open ports and the service versions as shown on the first screenshot
+
+
+
 
 ![Nmap answer](nmapanswer2.png)
 
