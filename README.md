@@ -6,7 +6,7 @@
 In this task, we performed enumeration to identify potential vulnerabilities on the target system.
 
 ### Screenshots
-![Nmap Scan](screenshots/nmap_scan.png)
+![Nmap Scan](screenshots-Nmap_scan.png)
 ![Service Version](screenshots/service_version.png)
 
 ### Notes
