@@ -10,7 +10,7 @@ In this task, we performed enumeration to identify potential vulnerabilities on 
 - So basically we need to scan for open ports using the NMAP scan as shown in the screenshot. Though most times adviceable to run the to scan aggressively using nmap -A and IP address.
 - After that we scanned for the service version using nmap -sV and IP address
 
-![vulnersity](vulnversity.png)
+![vulnersity](vunlversity.png)
 
 ![Nmap answer](nmapanswer.png)
 ![Nmao answer](nmapanswerpng)
