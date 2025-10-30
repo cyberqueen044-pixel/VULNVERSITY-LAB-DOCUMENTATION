@@ -13,7 +13,7 @@ In this task, we performed enumeration to identify potential vulnerabilities on 
 ![vulnersity](vunlversity.png)
 
 ![Nmap answer](nmapanswer.png)
-![Nmao answer](nmapanswerpng)
+![Nmap answer](nmapanswer2.png)
 ### Notes
 - Nmap revealed several open ports, including SSH and HTTP.
 - The HTTP service was running an outdated version of Apache.
