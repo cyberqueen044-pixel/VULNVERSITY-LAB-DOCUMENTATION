@@ -66,9 +66,3 @@ Here is the upload form page when you open the internal directory on your termin
 
 ![upload page](uplooad_image.png)
 
-
-### Notes
-- We discovered several interesting directories, including `/admin`, `/backup`, and `/uploads`.
-- The `/secret` directory returned a 403 status code, indicating it may be restricted.
-
-
