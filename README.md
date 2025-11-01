@@ -1,7 +1,7 @@
 # VULNVERSITY-LAB-DOCUMENTATION
 # Vulnversity Lab Documentation
 
-## Task 1: Enumeration
+## Task 2: Reconnaissance 
 ### Description
 In this task, we performed enumeration to identify potential vulnerabilities on the target system.
 
@@ -31,14 +31,24 @@ These are the answers I got after scanning for open ports and the service versio
 - Nmap revealed several open ports, including SSH and HTTP.
 - The HTTP service was running an outdated version of Apache.
 
-## Task 2: Exploitation
-### Description
-This task involved exploiting a known vulnerability to gain access to the system.
 
+## Task 3: Locating Directories with Gobuster
+### Description
+In this task, I used Gobuster to enumerate directories on the target web server to identify potential vulnerabilities. Directory enumeration can reveal hidden or sensitive directories that may contain valuable information or vulnerabilities.
+
+Steps I used to Perform the Task:
+
+    Install Gobuster: Ensure Gobuster is installed on your machine. You can install it using the following command:
+    sudo apt-get install gobuster.
+    Run Gobuster: Use Gobuster to scan for directories on the target web server. Using: gobuster dir -u http://10.10.122.159:3333 -w /usr/share/dirb/wordlists/common.txt
+    
+        -u: Specifies the target URL.
+    -w: Specifies the wordlist to use.
+    
 ### Screenshots
-![Exploit Command](screenshots/exploit_command.png)
-![Success Message](screenshots/success_message.png)
+![Gobuster Command](screenshots_gobuster_command.png)
+![Gobuster Output](screenshots_gobuster_output.png)
 
 ### Notes
-- We used an exploit for a known Apache vulnerability.
-- Gained a shell on the target system.
+- We discovered several interesting directories, including `/admin`, `/backup`, and `/uploads`.
+- The `/secret` directory returned a 403 status code, indicating it may be restricted.
