@@ -49,8 +49,19 @@ Run Gobuster: Use Gobuster to scan for directories on the target web server. Usi
     
        
  -u: Specifies the target URL.
+
  -w: Specifies the wordlist to use.
-    
+
+
+Analyze the Results: Review the output from Gobuster to identify any interesting directories. Take note of any directories that seem sensitive or out of the ordinary. Which brings us to answering the question on this task 3:
+
+ ![task 3](uploads_answer.png)
+
+ 
+ ![upload form page](upload_image.png)
+
+
+
 ### Screenshots
 ![Gobuster Command](screenshots_gobuster_command.png)
 ![Gobuster Output](screenshots_gobuster_output.png)
@@ -58,3 +69,5 @@ Run Gobuster: Use Gobuster to scan for directories on the target web server. Usi
 ### Notes
 - We discovered several interesting directories, including `/admin`, `/backup`, and `/uploads`.
 - The `/secret` directory returned a 403 status code, indicating it may be restricted.
+
+
