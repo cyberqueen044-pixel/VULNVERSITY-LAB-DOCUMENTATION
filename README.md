@@ -38,12 +38,18 @@ In this task, I used Gobuster to enumerate directories on the target web server 
 
 Steps I used to Perform the Task:
 
-    Install Gobuster: Ensure Gobuster is installed on your machine. You can install it using the following command:
-    sudo apt-get install gobuster.
-    Run Gobuster: Use Gobuster to scan for directories on the target web server. Using: gobuster dir -u http://10.10.122.159:3333 -w /usr/share/dirb/wordlists/common.txt
+Install Gobuster: Ensure Gobuster is installed on your machine. You can install it using the following command:
     
-        -u: Specifies the target URL.
-    -w: Specifies the wordlist to use.
+    sudo apt-get install gobuster.
+
+
+Run Gobuster: Use Gobuster to scan for directories on the target web server. Using: 
+    
+    gobuster dir -u http://10.10.122.159:3333 -w /usr/share/dirb/wordlists/common.txt
+    
+       
+ -u: Specifies the target URL.
+ -w: Specifies the wordlist to use.
     
 ### Screenshots
 ![Gobuster Command](screenshots_gobuster_command.png)
