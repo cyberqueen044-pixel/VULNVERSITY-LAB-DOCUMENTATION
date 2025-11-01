@@ -62,7 +62,12 @@ Analyze the Results: Review the output from Gobuster to identify any interesting
  ![task 3](uploads_answer.png)
 
 
-Here is the upload form page when you open the internal directory on your terminal
+Here is the upload form page I got when I opened the internal directory on my terminal
 
 ![upload page](uplooad_image.png)
+
+
+
+
+
 
