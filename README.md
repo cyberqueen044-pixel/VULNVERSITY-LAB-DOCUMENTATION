@@ -53,18 +53,19 @@ Run Gobuster: Use Gobuster to scan for directories on the target web server. Usi
  -w: Specifies the wordlist to use.
 
 
+### Screenshots
+![Gobuster Command](screenshots_gobuster_command.png)
+![Gobuster Output](screenshots_gobuster_output.png)
+
 Analyze the Results: Review the output from Gobuster to identify any interesting directories. Take note of any directories that seem sensitive or out of the ordinary. Which brings us to answering the question on this task 3:
 
  ![task 3](uploads_answer.png)
 
- 
- ![upload form page](upload_image.png)
 
+Here is the upload form page when you open the internal directory on your terminal
 
+![upload page](upload_image.png)
 
-### Screenshots
-![Gobuster Command](screenshots_gobuster_command.png)
-![Gobuster Output](screenshots_gobuster_output.png)
 
 ### Notes
 - We discovered several interesting directories, including `/admin`, `/backup`, and `/uploads`.
